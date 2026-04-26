@@ -5,8 +5,12 @@ import { Button } from "~/components/ui/Button";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Roomify - AI-powered interior design assistant" },
+    {
+      name: "description",
+      content:
+        "Roomify is an AI-first design environment that helps you visualize, render, and ship architectural projects faster than ever before.",
+    },
   ];
 }
 
